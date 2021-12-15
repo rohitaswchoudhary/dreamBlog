@@ -13,13 +13,13 @@
 			data-swiper-breakpoints="true" data-swiper-loop="true" >
 			<div class="swiper-wrapper">
                 {% for category in categories %}
-				<div class="swiper-slide">
+                <div class="swiper-slide">
 					<a class="slider-category" href="{{ category.get_absolute_url }}">
 						<div class="category-image">
                             <img src="{{ category.image.url }}"
                                  class="category-image"
                                  alt="Blog Image"
-                                 width="352" height="235"
+                                 width="400" height="235"
                              >
                         </div>
 
@@ -33,7 +33,7 @@
 					</a>
 				</div><!-- swiper-slide -->
                 {% endfor %}
-
+                
 			</div><!-- swiper-wrapper -->
 		</div><!-- swiper-container -->
 
