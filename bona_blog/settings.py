@@ -53,6 +53,9 @@ INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'portfolio.apps.PortfolioConfig',
 
+    # Django cleanup to clear the unused items
+    'django_cleanup.apps.CleanupConfig',
+
  ]
 
 INTERNAL_IPS = ['127.0.0.1', '::1']

@@ -42,7 +42,7 @@
                                            {% for article in deleted_articles_list  %}
                                                 <div class="item mb-5">
                                                     <div class="media">
-                                                        <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="{{ article.image.url }}" alt="image">
+                                                        <!-- <img class="mr-3 img-fluid post-thumb d-none d-md-flex" src="{{ article.image.url }}" alt="image"> -->
                                                         <div class="media-body">
                                                             <h3 class="title mb-1"><a href="javascript:void(0)">{{ article.title }}</a></h3>
                                                             <div class="meta mb-1"><span class="date"><b>Created:</b> <i>{{ article.date_created|timesince|upto:','}} ago</i></span>
